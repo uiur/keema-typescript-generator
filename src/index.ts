@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { compileFromFile } from 'json-schema-to-typescript'
 import fs from 'fs'
 import path from 'path'
