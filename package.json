@@ -1,0 +1,19 @@
+{
+  "name": "keema-typescript-generator",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "ts-node src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-schema-to-typescript": "^10.1.5",
+    "ts-node": "^10.5.0",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.8"
+  }
+}
