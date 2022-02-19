@@ -48,8 +48,9 @@ function main(inputPath: string, baseDir: string) {
 const argv = yargs(hideBin(process.argv))
   .usage('keema-typescript-generator [path] --base [base]')
   .command('path', 'Path to the json schema file')
+  .demandCommand(1, 'You need to provide a path to the json schema file')
   .describe('base', 'base directory of json schema files')
-  .options({ base: { type: 'string', demandOption: true, default: '.' } })
+  .options({ base: { type: 'string', default: '.' } })
   .parseSync()
 
 main(String(argv._[0]), argv.base)

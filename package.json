@@ -2,9 +2,7 @@
   "name": "keema-typescript-generator",
   "version": "1.0.0",
   "description": "",
-  "bin": {
-    "keema-typescript-generator": "ts-node src/index.ts"
-  },
+  "bin": "./cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
